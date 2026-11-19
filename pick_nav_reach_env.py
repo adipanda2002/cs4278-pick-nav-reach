@@ -1,4 +1,4 @@
-from time import time
+import time
 import pybullet as p
 import pybullet_data
 import numpy as np
@@ -15,17 +15,22 @@ class PickNavReachEnv:
     def __init__(self, 
                  seed=0,
                  object_idx=5,
+                 *, headless=False, maze_path=None, tick_observer=None,
                  ):
+        self.headless = headless
+        self.maze_path = Path(maze_path or "assets/maze.urdf").resolve()
+        self.tick_observer = tick_observer
+        self.tick_count = 0
         self.set_seed(seed)
 
-        self.pb_physics_client = p.connect(p.GUI)
+        self.pb_physics_client = p.connect(p.DIRECT if headless else p.GUI)
         p.setAdditionalSearchPath(pybullet_data.getDataPath()) 
         p.setGravity(0,0,-9.8)
 
         p.configureDebugVisualizer(lightPosition=[0, 0, 10])
         p.configureDebugVisualizer(rgbBackground=[1, 1, 1])        # white background brightens perception
 
-        p.loadURDF("plane.urdf")
+        self.plane_id = p.loadURDF("plane.urdf")
 
         self.seed = seed
         self.object_idx = object_idx
@@ -109,7 +114,7 @@ class PickNavReachEnv:
 
     def _load_object_table(self):
         p.setAdditionalSearchPath(pybullet_data.getDataPath()) 
-        p.loadURDF("table/table.urdf", baseOrientation=p.getQuaternionFromEuler([0,0,np.pi/2]), useFixedBase=1)
+        self.table_id = p.loadURDF("table/table.urdf", baseOrientation=p.getQuaternionFromEuler([0,0,np.pi/2]), useFixedBase=1)
 
         # hyperparameters
         ycb_object_dir_path = "./assets/ycb_objects/"
@@ -117,9 +122,10 @@ class PickNavReachEnv:
         assert 0 <= self.object_idx and self.object_idx < len(ycb_objects_paths), f"object_idx should be in [0, {len(ycb_objects_paths)-1}]"
         object_urdf_path = (ycb_objects_paths[self.object_idx] / "coacd_decomposed_object_one_link.urdf").absolute()
         object_mesh_path = (ycb_objects_paths[self.object_idx] / "textured.obj").absolute()
+        self.object_asset = object_urdf_path
         self.object_id = p.loadURDF(str(object_urdf_path), basePosition=[0, 0, 1.0], useFixedBase=0)
         self.object_canonical_mesh = trimesh.load(str(object_mesh_path))
-        object_canonical_pc, face_indices = trimesh.sample.sample_surface(self.object_canonical_mesh, 1024)
+        object_canonical_pc, face_indices = trimesh.sample.sample_surface(self.object_canonical_mesh, 1024, seed=self.seed)
         self.object_canonical_pc = object_canonical_pc.astype(np.float32)  # (1024, 3)
         self.object_canonical_normals = self.object_canonical_mesh.face_normals[face_indices].astype(np.float32)  # (1024, 3), outward normals
     
@@ -174,7 +180,7 @@ class PickNavReachEnv:
 
         self.cube_positions = create_maze_urdf(
             maze, 
-            urdf_path="./assets/maze.urdf",
+            urdf_path=str(self.maze_path),
             grid_xy=grid_xy, grid_z=grid_z,
             maze_center_x=(n_cols-room_width)/2*grid_xy + maze_offset, 
             maze_center_y=0.0, 
@@ -182,7 +188,7 @@ class PickNavReachEnv:
             box_color=(0.95, 0.95, 0.98, 1.0),
         )
 
-        p.loadURDF("./assets/maze.urdf", useFixedBase=1, flags=p.URDF_MERGE_FIXED_LINKS)
+        self.maze_id = p.loadURDF(str(self.maze_path), useFixedBase=1, flags=p.URDF_MERGE_FIXED_LINKS)
         
     def visualize_pc_and_normals(self, object_pc, object_normals, visualize_normals=False):
         # remove old debug items
@@ -241,9 +247,11 @@ class PickNavReachEnv:
 
         # action = np.clip(action, -1.0, 1.0)
         qpos, _, _, _ = self._get_state()
-        print(f"===========================Step {self.step_count}===========================")
+        if not self.headless:
+            print(f"Step {self.step_count}")
         self.step_count += 1
-        print("current qpos: ", qpos)
+        if not self.headless:
+            print("current qpos: ", qpos)
         # target = qpos + self.action_scale * action
         # target = np.clip(target, self.joint_lower, self.joint_upper)
         # print("wrap_mask: ", (self.joint_upper == 314))
@@ -251,7 +259,8 @@ class PickNavReachEnv:
         target = closest_joint_values(action, qpos, wrap_mask=(self.joint_upper == 314))
         # print("target before clip: ", target)
         target = np.clip(target, self.joint_lower, self.joint_upper)
-        print("target: ", target)
+        if not self.headless:
+            print("target: ", target)
 
         # Position control for all controllable joints
         position_gains = [0.3, 0.3, 0.3,  # base movement: xy trans and z rot 
@@ -275,9 +284,13 @@ class PickNavReachEnv:
             # velocityGains=velocity_gains,
         )
 
-        for _ in range(self.substeps):
+        for substep in range(1, self.substeps + 1):
             p.stepSimulation()
-            time.sleep(1./240.)
+            self.tick_count += 1
+            if self.tick_observer is not None:
+                self.tick_observer(target, substep)
+            if not self.headless:
+                time.sleep(1./240.)
 
         obs = self._get_obs()
 

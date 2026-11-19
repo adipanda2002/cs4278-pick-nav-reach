@@ -1,0 +1,117 @@
+{
+  "scope": "150 development cases: 15 supplied objects x seeds 60-69; not unseen reliability.",
+  "metrics": {
+    "call_strict_pick": 90,
+    "call_held_delivery": 60,
+    "tick_strict_pick": 87,
+    "both_tick_delivery": 57,
+    "both_timed_stages": 57
+  },
+  "objects": [
+    {
+      "id": 0,
+      "name": "master chef can",
+      "call_pickups": 0,
+      "call_deliveries": 0
+    },
+    {
+      "id": 1,
+      "name": "sugar box",
+      "call_pickups": 5,
+      "call_deliveries": 0
+    },
+    {
+      "id": 2,
+      "name": "tomato soup can",
+      "call_pickups": 10,
+      "call_deliveries": 10
+    },
+    {
+      "id": 3,
+      "name": "mustard bottle",
+      "call_pickups": 3,
+      "call_deliveries": 3
+    },
+    {
+      "id": 4,
+      "name": "potted meat can",
+      "call_pickups": 10,
+      "call_deliveries": 7
+    },
+    {
+      "id": 5,
+      "name": "banana",
+      "call_pickups": 10,
+      "call_deliveries": 10
+    },
+    {
+      "id": 6,
+      "name": "strawberry",
+      "call_pickups": 9,
+      "call_deliveries": 5
+    },
+    {
+      "id": 7,
+      "name": "apple",
+      "call_pickups": 10,
+      "call_deliveries": 3
+    },
+    {
+      "id": 8,
+      "name": "bleach cleanser",
+      "call_pickups": 0,
+      "call_deliveries": 0
+    },
+    {
+      "id": 9,
+      "name": "bowl",
+      "call_pickups": 5,
+      "call_deliveries": 2
+    },
+    {
+      "id": 10,
+      "name": "mug",
+      "call_pickups": 8,
+      "call_deliveries": 5
+    },
+    {
+      "id": 11,
+      "name": "plate",
+      "call_pickups": 0,
+      "call_deliveries": 0
+    },
+    {
+      "id": 12,
+      "name": "large marker",
+      "call_pickups": 10,
+      "call_deliveries": 10
+    },
+    {
+      "id": 13,
+      "name": "hammer",
+      "call_pickups": 0,
+      "call_deliveries": 0
+    },
+    {
+      "id": 14,
+      "name": "foam brick",
+      "call_pickups": 10,
+      "call_deliveries": 5
+    }
+  ],
+  "case_table": "cases.csv",
+  "case_count": 150,
+  "source_manifest_sha256": "9bcb1af28e1e049bc34bec4a5bd521c49a0a77c20f6b81050b80a4e2175ae849",
+  "input_evidence_sha256": {
+    "artifacts/experiments/simple-controller-starter/evaluation/coverage120_i_panel/panel/completion.json": "fa491d10093515be49d70d5f2e9e739728df0a6652d3dc0fb67d196809890427",
+    "artifacts/experiments/simple-controller-starter/evaluation/coverage120_i_remaining/remaining/completion.json": "53bf70901be09a7d52615e9636c2c199a99dc32cc0c75d2afc5feb3971e87c71"
+  },
+  "summary_note": "Per-case outcomes and trace SHA-256 values identify the audited source evidence; raw traces remain in the retained research archive, not this runtime checkout.",
+  "clock_definitions": {
+    "environment_call_pickup": "<=3000 calls",
+    "environment_call_delivery": "<=15000 calls after pickup",
+    "physics_tick_pickup": "<=3000 ticks",
+    "physics_tick_delivery": "<=15000 ticks for both the whole trial and post-pick interval",
+    "ticks_per_environment_call": 5
+  }
+}

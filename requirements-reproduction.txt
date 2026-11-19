@@ -1,0 +1,5 @@
+numpy==2.2.6
+pybullet==3.2.7
+trimesh==5.1.0
+matplotlib==3.10.9
+pillow==12.3.0

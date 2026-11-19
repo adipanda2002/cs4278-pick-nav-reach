@@ -1,0 +1,2 @@
+# Use the pinned dependency set for assessment and reproduction.
+-r requirements-reproduction.txt

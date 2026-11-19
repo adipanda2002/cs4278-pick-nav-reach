@@ -1,0 +1,48 @@
+{
+  "pair": [
+    14,
+    0
+  ],
+  "status": "PASS",
+  "termination": "held_goal",
+  "calls": 2145,
+  "ticks": 10725,
+  "pickup": {
+    "call": 383,
+    "tick": 1915
+  },
+  "arrival": {
+    "call": 2145,
+    "tick": 10725
+  },
+  "call_strict_pick": true,
+  "call_held_delivery": true,
+  "tick_strict_pick": true,
+  "both_tick_delivery": true,
+  "both_timed_stages": true,
+  "whole_call_delivery_window": true,
+  "first_guard_tick": null,
+  "trace_sha256": "d239efb2767b2233bd5338dec942ca0360b9f8706b0e5faecffef41ac88fe9de",
+  "archived_sources_verified": true,
+  "current_sources_match": true,
+  "palm_classification_checked": true,
+  "palm_geometry_provenance_verified": true,
+  "palm_policy_id": "palm_geometry_v3",
+  "first_legacy45_incompatible_palm_tick": null,
+  "legacy45_incompatible_palm_samples": 0,
+  "legacy45_compatible_pick": true,
+  "legacy45_compatible_delivery": true,
+  "first_source_face_certificate_tick": null,
+  "source_face_certificate_samples": 0,
+  "source_face_axis_bank_size": 3000,
+  "first_palm_candidate_tick": null,
+  "accepted_palm_samples": 0,
+  "finger_only_compatible_pick": true,
+  "finger_only_compatible_delivery": true,
+  "verification_scope": "independent metric/clock/source recount; native guard decisions recorded by pinned producer",
+  "early_lift_query": null,
+  "early_contact_event_witness_samples": 0,
+  "early_contact_events": [],
+  "I2_additive_event_audit": "PASS",
+  "qualification": "Recorded witness geometry independently recomputed; full043 metrics unchanged."
+}

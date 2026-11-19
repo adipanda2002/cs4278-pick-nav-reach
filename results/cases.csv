@@ -1,0 +1,151 @@
+object_id,object_name,seed,strict_pick_by_calls,held_delivery_by_calls,strict_pick_by_ticks,held_delivery_by_both_tick_clocks,both_timed_stages,pickup_call,pickup_tick,arrival_call,arrival_tick,termination,environment_calls,physics_ticks,trace_sha256
+0,master chef can,60,False,False,False,False,False,,,,,no_safe_approach,50,250,c40f96e0ebad6b9f93cda0a6942f2aba44f4e2af408cad7e6fa5c3b8323fe921
+0,master chef can,61,False,False,False,False,False,,,,,no_safe_approach,50,250,1728524ed89035e6b898fab482d8fbaa7c70c2f337c419e89faf7d0196f3f7ea
+0,master chef can,62,False,False,False,False,False,,,,,no_safe_approach,50,250,3a9843a11ab40874ee7569c58c929dec24fcf69d4898c416218598b05ab07709
+0,master chef can,63,False,False,False,False,False,,,,,lift_contact_lost,260,1300,2c57607d48e13068ca617f4923323ded98430de10261da24a00091c86af66b03
+0,master chef can,64,False,False,False,False,False,,,,,no_safe_approach,50,250,c40f96e0ebad6b9f93cda0a6942f2aba44f4e2af408cad7e6fa5c3b8323fe921
+0,master chef can,65,False,False,False,False,False,,,,,no_safe_approach,50,250,3a9843a11ab40874ee7569c58c929dec24fcf69d4898c416218598b05ab07709
+0,master chef can,66,False,False,False,False,False,,,,,no_safe_approach,50,250,73ecb7dab169fd0bbbec582195da2c320c1b55435466a621732dd7470be233ed
+0,master chef can,67,False,False,False,False,False,,,,,lift_contact_lost,261,1305,2c0091c51e1c8f808208ae1414bd7c45cec08b2fd238fa2ba9afbdae3641b9a4
+0,master chef can,68,False,False,False,False,False,,,,,no_safe_approach,50,250,73ecb7dab169fd0bbbec582195da2c320c1b55435466a621732dd7470be233ed
+0,master chef can,69,False,False,False,False,False,,,,,lift_contact_lost,289,1445,57fb3225f6d6dcaa44b736082f0d5b82cfbb2c943c277bf60dcd3a6f27ef554c
+1,sugar box,60,True,False,True,False,False,451,2255,,,physical_guard,572,2860,297279bfb33a824b44af4525e8a6e1071fe7794805781f49e5fe1ce16e570367
+1,sugar box,61,True,False,True,False,False,449,2245,,,physical_guard,601,3005,91c379763fa583e9bd27032e39a8af26d76ca2b991a03207c24a420e156b54eb
+1,sugar box,62,False,False,False,False,False,,,,,no_safe_approach,50,250,ceaac8736f57e01631d4a266a3ea9cd6caba14cd3966e5a00eb2461bd09d101f
+1,sugar box,63,True,False,True,False,False,375,1875,,,physical_guard,727,3635,c85f924537a727e8de019fc08f37c504c05df1fa4b49ebcf2e4e48b73dbbda6e
+1,sugar box,64,False,False,False,False,False,,,,,physical_guard,287,1435,fc83b029c4cc36300c177821c0ab88063a49b9637e2a83d2b14f6ff14c0d2aa5
+1,sugar box,65,False,False,False,False,False,,,,,physical_guard,282,1410,bedfb3caa8f6da644abfc6705dfce4910b2a430a17fca5273171b2edb0d6a6ca
+1,sugar box,66,True,False,True,False,False,442,2210,,,physical_guard,879,4395,d2b2e54f8a245e098126db2404b5bffbe862cb6145ccccb78fe3b191ecff45e2
+1,sugar box,67,True,False,True,False,False,452,2260,,,physical_guard,514,2570,104a0df88ac3e609026372398ac9b870bf131660e186dd979dd62bc8340d76d1
+1,sugar box,68,False,False,False,False,False,,,,,no_safe_approach,50,250,ebe72354b1552f6796638df6fe11f783a440f15104e8f6471168d93d2198b9c3
+1,sugar box,69,False,False,False,False,False,,,,,physical_guard,281,1405,c42230294e159f9207f0bffd16a30307732e620f2c78881a0f81d2662e4db6c0
+2,tomato soup can,60,True,True,True,True,True,326,1630,2369,11845,held_goal,2369,11845,d11d5bdec064be9e1d737cca69080a0b8479b3caed5bca8ee2f11aba672c6945
+2,tomato soup can,61,True,True,True,True,True,330,1650,2004,10020,held_goal,2004,10020,1700d5d0af462db3058f794f70f2e17d582f3647f47984e2ec117997dfce1222
+2,tomato soup can,62,True,True,True,True,True,328,1640,2326,11630,held_goal,2326,11630,0f2780e62084661dce04f6e0801b00aa9422755a3a7c87db39a68cd58f628b77
+2,tomato soup can,63,True,True,True,True,True,329,1645,2219,11095,held_goal,2219,11095,c75b6024b920ecc3f69c5471e322f7217392c43b428baa4e8f42caf648437d78
+2,tomato soup can,64,True,True,True,True,True,330,1650,2068,10340,held_goal,2068,10340,c9d97b32d437488d168f40c9c66c6259c749a726aa5d335f413481d35af23487
+2,tomato soup can,65,True,True,True,True,True,329,1645,2129,10645,held_goal,2129,10645,2d6aa74781000ae67b3a32bfdc6dd2841235538c537b82eaa83114a620f7e08c
+2,tomato soup can,66,True,True,True,True,True,328,1640,2216,11080,held_goal,2216,11080,f1aa97c01c52d2c81fc622156ada7f9cac4d36d6dcdc9568b76ab2685b29a1da
+2,tomato soup can,67,True,True,True,True,True,329,1645,2021,10105,held_goal,2021,10105,4173fa87d3d238cecd05939eed1cfeb7eed5be13a64a9b72b55cda7634eade4e
+2,tomato soup can,68,True,True,True,True,True,329,1645,2151,10755,held_goal,2151,10755,1382ad0273be61f348bf318eb38e245728af96d2aec5a20d05c0999b5dfef3dc
+2,tomato soup can,69,True,True,True,True,True,329,1645,1979,9895,held_goal,1979,9895,022db8e9220a8eca51f6b8c7003e251c912d02756e5a5dffa6e6224beca5e56d
+3,mustard bottle,60,True,True,False,False,False,2206,11030,4230,21150,held_goal,4230,21150,d0b80769a74d9cba6bc9a4cc0139e235aa1b97cc3e281790a513d2e0b2ce6c97
+3,mustard bottle,61,False,False,False,False,False,,,,,physical_guard,2049,10245,301567fe6eabe23bfd27995313da78fa1423bec4cacbc933f9fb75c5aff66b58
+3,mustard bottle,62,False,False,False,False,False,,,,,physical_guard,2038,10190,e639d3066144d0491fdb86d55aba793190d9e36db9a5b40aa4932363b094f4fb
+3,mustard bottle,63,False,False,False,False,False,,,,,physical_guard,2048,10240,3eefd64562136e653835ec3e4727249cadd9045ec6bd32cce91b86db1a3bfe97
+3,mustard bottle,64,True,True,False,False,False,2269,11345,4001,20005,held_goal,4001,20005,34d816dd4e95984615357c456fff56d411a2dd4763941adde6389856520f26aa
+3,mustard bottle,65,False,False,False,False,False,,,,,physical_guard,2049,10245,94dcc2d6f0e3dd5ee9082e00dfa28d80844f3d57ad141d0ee64221140ec1c7f9
+3,mustard bottle,66,False,False,False,False,False,,,,,lift_contact_lost,2059,10295,91b21890d7e17cb32d3576395a2d39e4dfbe933c00e43bcd5912c5148b27bf00
+3,mustard bottle,67,False,False,False,False,False,,,,,physical_guard,2049,10245,864c39571d6379c7aa3d3307bc2943e16bd9df0937cc753058aa486f205eecb5
+3,mustard bottle,68,True,True,False,False,False,2218,11090,4118,20590,held_goal,4118,20590,760c6a484f182673abaf81386cc59ee00902fe4b0f784eb45e0ad685e7cc1968
+3,mustard bottle,69,False,False,False,False,False,,,,,physical_guard,2037,10185,dbf1838ee05980d83f161772b773d9bba8cf7d76674c5f9f3bbb3d847d020707
+4,potted meat can,60,True,True,True,True,True,326,1630,2351,11755,held_goal,2351,11755,b8687ee463c7928bd803d94e1b1467c921ff5de1c1a3a95bcea5e54482478968
+4,potted meat can,61,True,True,True,True,True,328,1640,1998,9990,held_goal,1998,9990,beaeefbe59e93dd061f38997c8c8bb213260094a6ff2a84ddbb9a2f1f8209586
+4,potted meat can,62,True,False,True,False,False,327,1635,,,physical_guard,782,3910,753bbe766d67b7c712bd4179177b2a23119766b58f830669d9e4ec3c33c5e33c
+4,potted meat can,63,True,False,True,False,False,326,1630,,,physical_guard,1057,5285,2c3ee942782da8997cd3c7300d507ca4e19351290a1c9bcd275c3c331c447391
+4,potted meat can,64,True,True,True,True,True,327,1635,2063,10315,held_goal,2063,10315,09765026000ade5957c5137219af39d756ae064e6d272bac090b1b51c2e11c6d
+4,potted meat can,65,True,True,True,True,True,327,1635,2128,10640,held_goal,2128,10640,46bcc97eb92b53a891ffe7e6f7437530f200c420445bfcba5e2311d75ad8c2ee
+4,potted meat can,66,True,True,True,True,True,328,1640,2217,11085,held_goal,2217,11085,a4f87509c785c01858318fc15296adea1d5bc691d5d5f9e210bbf7fe72ec635d
+4,potted meat can,67,True,True,True,True,True,326,1630,2019,10095,held_goal,2019,10095,a14258d9be1dbcba2b6f9276a314b49360b07f7c9dd54217ac4b753271ff3e24
+4,potted meat can,68,True,False,True,False,False,327,1635,,,physical_guard,724,3620,6620372bb81d905afcbcdfa548fa4271c416bc494f99552cf6d1fc4934d24928
+4,potted meat can,69,True,True,True,True,True,327,1635,1977,9885,held_goal,1977,9885,e5ce36e2c03a12cc432961dc02bdb7ad6a068ef1d732cccc3cfec6322bb45a37
+5,banana,60,True,True,True,True,True,375,1875,2443,12215,held_goal,2443,12215,9f08a023fb4a5739179b7b460e16f7ce7f62da563b8510fae075932ce6118de8
+5,banana,61,True,True,True,True,True,371,1855,2089,10445,held_goal,2089,10445,108be00b22a192b924aa2a8ad9db501cf1cbc92c152beba46c636700a5302cb2
+5,banana,62,True,True,True,True,True,375,1875,2555,12775,held_goal,2555,12775,cfeb92b48a7f074a63fcef003577aaf07944d8fc879bbcbf64b1eefb482b98af
+5,banana,63,True,True,True,True,True,377,1885,2278,11390,held_goal,2278,11390,9bce92d173bff01d8c07f93ca9cf78588329549412847e1ec0a8d87520fbef28
+5,banana,64,True,True,True,True,True,379,1895,2160,10800,held_goal,2160,10800,ec242daace352e78a9d4b293fdd9589a9b44f349e7c2789a1d118a16f686620a
+5,banana,65,True,True,True,True,True,380,1900,2228,11140,held_goal,2228,11140,94cf7752cc8df135ba28327dfdf6082e43d7c77e97e4e4e15b14a24dd7b0d5ad
+5,banana,66,True,True,True,True,True,378,1890,2314,11570,held_goal,2314,11570,b0a195c56889ceee3206fba503156e158d0780fda58b878f2ec9dc72350bcac9
+5,banana,67,True,True,True,True,True,375,1875,2112,10560,held_goal,2112,10560,e87c3e5dd8b2b3c2a3630096ca9795c4e6c77b2bb37162cee7551f885fadf958
+5,banana,68,True,True,True,True,True,376,1880,2209,11045,held_goal,2209,11045,f56afd8f986fe3a024be38c5c5cc8f1d3e703695ba4a55de16b3296e81f40b57
+5,banana,69,True,True,True,True,True,384,1920,2082,10410,held_goal,2082,10410,b9fea7cccef4c5a47868582a04491c247f5f935734813ed17dda19ecf9a90f2d
+6,strawberry,60,True,True,True,True,True,527,2635,2593,12965,held_goal,2593,12965,a9d14279420614569dc907b6ebb4089d49a079005b4a7816b598d5d295354a54
+6,strawberry,61,True,True,True,True,True,518,2590,2232,11160,held_goal,2232,11160,97f697d9b3b2d2ebbe5d5a20fb6e75f51ba02333c5e186e2c0a3adaece88c6c4
+6,strawberry,62,False,False,False,False,False,,,,,physical_guard,372,1860,60f6c1f142fceb9a0189f5803231f7d9545395dcc735dffab19193af011cba6f
+6,strawberry,63,True,False,True,False,False,515,2575,,,physical_guard,1897,9485,f749f98d757ecf3b526aec286dd8208cf04e0b02e69db24db9fdb0f5f851ab1d
+6,strawberry,64,True,True,True,True,True,512,2560,2293,11465,held_goal,2293,11465,a78ac211e702b85dc2da943c575a9df387370f11e0eacda4c201baa3947b35df
+6,strawberry,65,True,True,True,True,True,509,2545,2361,11805,held_goal,2361,11805,8158b35ddc4b7f21e62856424b4b0074377839f3253cef1cd739db939b87aa74
+6,strawberry,66,True,False,True,False,False,527,2635,,,physical_guard,1374,6870,bee63a156eb4ed6a3062c42ea104494726d9e8e7429fcca4c5c1e91833317daa
+6,strawberry,67,True,False,True,False,False,518,2590,,,physical_guard,573,2865,2afc48158e218a3985731a201c03dc107f3531764dc0a823f8c85cd7a5e73aa5
+6,strawberry,68,True,False,True,False,False,524,2620,,,physical_guard,1003,5015,a844e63c67456d1fe9df56e808bacfd37c1412b0baf9f61ea7a82b8dc3c17b8d
+6,strawberry,69,True,True,True,True,True,513,2565,2212,11060,held_goal,2212,11060,eeb906c4e46ec641d974de2c580ea57404c95702035f36226f3b64f430e8ef4a
+7,apple,60,True,False,True,False,False,327,1635,,,physical_guard,406,2030,959473d27ac2fbcd06d70ecd183258fffb75ed30ba7507e0e0adfa3935e5d835
+7,apple,61,True,True,True,True,True,372,1860,2043,10215,held_goal,2043,10215,2f74b68c2b7dc7b345fc46c5ca4f0326265557c2490402010e67605e4b8ff228
+7,apple,62,True,False,True,False,False,332,1660,,,physical_guard,671,3355,452cb3fef8998fe4d2a2af9c79ecb998f2874d5a9be7e1faf19e78546118ea6b
+7,apple,63,True,True,True,True,True,379,1895,2279,11395,held_goal,2279,11395,9d5242fc03bbd2084541be77278a40cd8a8a74fada5c2b509b1248ec3ac6edc7
+7,apple,64,True,True,True,True,True,379,1895,2125,10625,held_goal,2125,10625,3c0797037c60cc2b0ad9b2c81ffad791659ece09948f766e83d5667c9e75bf3a
+7,apple,65,True,False,True,False,False,331,1655,,,physical_guard,2113,10565,f27b3184b4c95cf205147c53924914a1fefc219b7e2c2dd66e11cae879daaa78
+7,apple,66,True,False,True,False,False,329,1645,,,physical_guard,359,1795,98b2905f6d5be5335fcc5c4fc29125c5cc1597b579cde26339c0612c2f526a94
+7,apple,67,True,False,True,False,False,328,1640,,,physical_guard,563,2815,e25c3cc2059fdeb55eb8e6c0f728eaf616aa0d0226bdddf5bc35f047c9be057c
+7,apple,68,True,False,True,False,False,326,1630,,,physical_guard,366,1830,ddf6f46af2cd3181ae4dc9ba2f2afac02aff6ccc5d1ec1e0e7b0bd2d9bbb076e
+7,apple,69,True,False,True,False,False,329,1645,,,physical_guard,621,3105,8feed78898800bb727c018f907c9045c28c59adfa20f791322fe63cb191dd7c5
+8,bleach cleanser,60,False,False,False,False,False,,,,,no_safe_approach,390,1950,29e01d552532418be71cfd61c64c85020f99de2a634ca91f429022f3bcfa5a77
+8,bleach cleanser,61,False,False,False,False,False,,,,,no_safe_approach,390,1950,3fd1cfdbbb521a257c692c9403d5222004ddb13d4ae05d7fae9fdc89cfd3770e
+8,bleach cleanser,62,False,False,False,False,False,,,,,no_safe_approach,390,1950,a1b66f804dbe8dc537cca4450de2442092db314f139aca8b7cea58d609cbb087
+8,bleach cleanser,63,False,False,False,False,False,,,,,no_safe_approach,390,1950,69bb1ce293f290cacadabd9e06f728f1cea4f3e6b2f2f3cf72155e8b336bab08
+8,bleach cleanser,64,False,False,False,False,False,,,,,no_safe_approach,390,1950,29e01d552532418be71cfd61c64c85020f99de2a634ca91f429022f3bcfa5a77
+8,bleach cleanser,65,False,False,False,False,False,,,,,no_safe_approach,390,1950,a1b66f804dbe8dc537cca4450de2442092db314f139aca8b7cea58d609cbb087
+8,bleach cleanser,66,False,False,False,False,False,,,,,no_safe_approach,390,1950,69bb1ce293f290cacadabd9e06f728f1cea4f3e6b2f2f3cf72155e8b336bab08
+8,bleach cleanser,67,False,False,False,False,False,,,,,no_safe_approach,390,1950,9244102dde652fc35548e24eeea73317dc1d87b214f762488b5773ca79ee36df
+8,bleach cleanser,68,False,False,False,False,False,,,,,no_safe_approach,390,1950,69bb1ce293f290cacadabd9e06f728f1cea4f3e6b2f2f3cf72155e8b336bab08
+8,bleach cleanser,69,False,False,False,False,False,,,,,no_safe_approach,390,1950,c3f9bd6869cd34ff1ad0d635ddaaf9f90c217fab207e8d67e67510e3abd0dfd7
+9,bowl,60,False,False,False,False,False,,,,,physical_guard,300,1500,b9738082ee741f439f2fe3bdbc7e9b2984ac3d17fb3ca62c2fd9e50781a86904
+9,bowl,61,True,True,True,True,True,434,2170,2128,10640,held_goal,2128,10640,4f0bca6335ddd7590a14f313dc27db9b69ea8f2798eaeba1cc0bc39163b060a1
+9,bowl,62,False,False,False,False,False,,,,,no_safe_approach,50,250,d3a1e4e80765dc1493b4118374dd6a7704cfa699847f0b1bc1eff3f58cc1fb8f
+9,bowl,63,False,False,False,False,False,,,,,lift_contact_lost,315,1575,8e3106eb06866195eaaac9e2c598d5ac6aa3a10147067684db2f74635f0a77c5
+9,bowl,64,True,True,True,True,True,343,1715,2125,10625,held_goal,2125,10625,aeabc51fd98f2407ff8dfcf9b6c5c984837de20aae630775dda03532f32935a7
+9,bowl,65,True,False,True,False,False,372,1860,,,physical_guard,712,3560,1eb3c78f6aeebe43a527e5de5b95d7814ada65eff4f763921913063e894c74c4
+9,bowl,66,False,False,False,False,False,,,,,physical_guard,238,1190,62e584458ccb98d5d4141aa21edef33010dbc1478613d0c9eb65466370176def
+9,bowl,67,True,False,True,False,False,429,2145,,,physical_guard,596,2980,3d7ea09461d978318a4b6fc556f5fe8ba291130fabf7875fa69cda2d7b9d51cc
+9,bowl,68,False,False,False,False,False,,,,,lift_contact_lost,324,1620,4e6a2cb485793698dfc687ca6b2eae82788ed9856dd4f1e2b24923890962d43c
+9,bowl,69,True,False,True,False,False,426,2130,,,physical_guard,861,4305,1c688b40116bf556e35b633744231036cfc0636faddaa9169fea83d2fc6ec3c2
+10,mug,60,True,True,True,True,True,383,1915,2416,12080,held_goal,2416,12080,5a043e5f7dc1f24cbf2f3967b466e7f97abdadf7ce0bc5aedd77155aa51c8b8d
+10,mug,61,True,True,True,True,True,385,1925,2065,10325,held_goal,2065,10325,485844d1cb81f62eed89991b2abda159a2015efe6eb4119a2c09a6c0572c39bc
+10,mug,62,True,False,True,False,False,331,1655,,,physical_guard,2004,10020,6e6480f4063291a144f65cc5f0b4c75200d48182efccaadeb915f4c9b0979b0b
+10,mug,63,True,True,True,True,True,387,1935,2286,11430,held_goal,2286,11430,9806a5e76ce85171485fa867bf4409217d9d60896d96d1f8b02ac678d47407be
+10,mug,64,True,True,True,True,True,330,1650,2077,10385,held_goal,2077,10385,0eb12a962521bbc6b987c4d3ad36cc0298b6ffc4c890145963ba6839611d8eb1
+10,mug,65,False,False,False,False,False,,,,,physical_guard,234,1170,03b1bf0ab0253456b9f4922bf7708941b095528b9371d8de60dc76c9292df1b7
+10,mug,66,True,True,True,True,True,384,1920,2284,11420,held_goal,2284,11420,7852c9cb4e4b2b32eff3ccd1bbde24981aa53da378df93b35838fea24dd9422c
+10,mug,67,True,False,True,False,False,330,1650,,,physical_guard,1668,8340,f38c7fc5788d34386d08791af87cafaf1a3cf3cf9ed88451808c433041a23a90
+10,mug,68,True,False,True,False,False,332,1660,,,physical_guard,975,4875,497c4e0cd9c53d466dfc17a5c4f12043a701ffe61769aa65a60a1ab064898ee7
+10,mug,69,False,False,False,False,False,,,,,physical_guard,245,1225,4468e0e34ab5bb865473e7335d29ef01b3ea5e6939402ee728f0ba21b2f8b634
+11,plate,60,False,False,False,False,False,,,,,no_safe_approach,50,250,9f291f0ffe09d19285e6f33612458bad482ba7775aa271f27ea4bfc161fc85ba
+11,plate,61,False,False,False,False,False,,,,,no_safe_approach,50,250,0742c88221a691595e3351ca0777c1ce9f01a91906728619672ef4448a4226df
+11,plate,62,False,False,False,False,False,,,,,no_safe_approach,50,250,998826afeecbbf5db4b6626d773f400705e011b5db2f26f3683b297f7d1e4582
+11,plate,63,False,False,False,False,False,,,,,no_safe_approach,50,250,0168a3af47e30cd81688b73ee5490a09fa8d4f970003ba47c817d5484336963b
+11,plate,64,False,False,False,False,False,,,,,no_safe_approach,50,250,9f291f0ffe09d19285e6f33612458bad482ba7775aa271f27ea4bfc161fc85ba
+11,plate,65,False,False,False,False,False,,,,,no_safe_approach,50,250,998826afeecbbf5db4b6626d773f400705e011b5db2f26f3683b297f7d1e4582
+11,plate,66,False,False,False,False,False,,,,,no_safe_approach,50,250,0168a3af47e30cd81688b73ee5490a09fa8d4f970003ba47c817d5484336963b
+11,plate,67,False,False,False,False,False,,,,,no_safe_approach,50,250,cd3353b68786559814e93fd3695461429bf6962b5556ee850d600b47586c4b14
+11,plate,68,False,False,False,False,False,,,,,no_safe_approach,50,250,0168a3af47e30cd81688b73ee5490a09fa8d4f970003ba47c817d5484336963b
+11,plate,69,False,False,False,False,False,,,,,no_safe_approach,50,250,06baca7f4aba3641596e6c16967ebf5bcbab603459a02bfa9eef2f0394dd31f3
+12,large marker,60,True,True,True,True,True,395,1975,2465,12325,held_goal,2465,12325,b4280ff575066829c7c82238275675d1131af2a2c0cf0bae53d4480d236ba850
+12,large marker,61,True,True,True,True,True,393,1965,2110,10550,held_goal,2110,10550,42fd9a0705696be31ea1230cd0f746ae8590f44e5e3eee5164e30681adece538
+12,large marker,62,True,True,True,True,True,392,1960,2393,11965,held_goal,2393,11965,7a77a4576abd27e3382f000877f8753874a5cbb1f914d066e6110a20275aeb6b
+12,large marker,63,True,True,True,True,True,451,2255,2347,11735,held_goal,2347,11735,e19009dbbe27f1bb17604457fc55fa819f987271d77a724dc17546f4566b0471
+12,large marker,64,True,True,True,True,True,394,1970,2175,10875,held_goal,2175,10875,4fe25f3361e1d8694086ef7cafeec148b822a752b4039f2a024bb7a430d311e0
+12,large marker,65,True,True,True,True,True,393,1965,2240,11200,held_goal,2240,11200,90e4f9ec41000754c22ac93b7296dd9ed958e70aff507ee0f9957f6ad67ee23b
+12,large marker,66,True,True,True,True,True,396,1980,2331,11655,held_goal,2331,11655,0301307bd782655bbf39c9e33d499d614b5e68b753ff2efa3a06cf0b2a463624
+12,large marker,67,True,True,True,True,True,396,1980,2134,10670,held_goal,2134,10670,f87ed7934e0129f5a2715daf773abc4ec7660307ff0aecd7cd7a4ab11ff41087
+12,large marker,68,True,True,True,True,True,395,1975,2266,11330,held_goal,2266,11330,2604c7e98a4f2576cac075f1626d0ded760789da697085ba96c08efda686d3dd
+12,large marker,69,True,True,True,True,True,400,2000,2060,10300,held_goal,2060,10300,081afb4c0c6f7abb28e950a22a0a82e4bce824111cfae35a429bb9e78db590fb
+13,hammer,60,False,False,False,False,False,,,,,lift_contact_lost,322,1610,d6dacc6101e4c7cde2694643c4d0ed277489b7aca456bb833d6a4aebb914c2c2
+13,hammer,61,False,False,False,False,False,,,,,no_safe_approach,50,250,a32c0617bdb49151bc4309158101f4498e18666c98d9773906ef8b835f80c833
+13,hammer,62,False,False,False,False,False,,,,,no_safe_approach,50,250,1a981d94981d8fa8d3df590849cce889e30a4fa1095614c2a6492c50875c6834
+13,hammer,63,False,False,False,False,False,,,,,approach_convergence,333,1665,a1d58cb369dcb667c468e4f9a3f4789efbe99aedba4ea3add26998db3c71c0d9
+13,hammer,64,False,False,False,False,False,,,,,no_safe_approach,50,250,3e570b0e52c6a0130081264a6a1e885ab99488dd3d9a52cc5bce985f95f7bed5
+13,hammer,65,False,False,False,False,False,,,,,no_safe_approach,50,250,1a981d94981d8fa8d3df590849cce889e30a4fa1095614c2a6492c50875c6834
+13,hammer,66,False,False,False,False,False,,,,,no_safe_approach,50,250,17857379cbeae601d63d06568b775324bb3e94979cd621ee56fdb909241133fb
+13,hammer,67,False,False,False,False,False,,,,,physical_guard,357,1785,542d50c751ea175dad3584091bb083ee7ab130339a5d766c6a3b87732af3a413
+13,hammer,68,False,False,False,False,False,,,,,no_safe_approach,50,250,17857379cbeae601d63d06568b775324bb3e94979cd621ee56fdb909241133fb
+13,hammer,69,False,False,False,False,False,,,,,no_safe_approach,50,250,8041ef1695db9b1db8a9410d3ee902dccda6bae42d4f4d57b5ac04bd8fe7a6d5
+14,foam brick,60,True,True,True,True,True,383,1915,2455,12275,held_goal,2455,12275,e0dfc81dc1fd5e8eb7f4690fb9d12c9c7fc42b2bf2c3b03feaf1e22477156874
+14,foam brick,61,True,True,True,True,True,381,1905,2065,10325,held_goal,2065,10325,36b40df0af321a96f1ff50866ec88bd503cae17cbdf3f9f1aa926f6e502dda98
+14,foam brick,62,True,False,True,False,False,382,1910,,,physical_guard,680,3400,6c672d86589cdd8a7a27ded407093b935929446e734962fd3fc28750c4778507
+14,foam brick,63,True,True,True,True,True,385,1925,2298,11490,held_goal,2298,11490,fdf6f3c900de9cddc215107b0e37f8f386dd5902cd48b985db3cdfe62caaa0db
+14,foam brick,64,True,True,True,True,True,385,1925,2167,10835,held_goal,2167,10835,42006dd5980d7ac5ae7a132d48647a5b18f795e8038af9a46ef77e30be982e04
+14,foam brick,65,True,False,True,False,False,381,1905,,,physical_guard,1040,5200,c312081241165cc81b245f6d5c483d8923bc5eef0ffbd22d25629a045a29f57c
+14,foam brick,66,True,False,True,False,False,383,1915,,,physical_guard,1727,8635,52b589102309f6dd9da56b30ea6eed7686cc2e0f25dbc8ad3ec108516e62619c
+14,foam brick,67,True,False,True,False,False,385,1925,,,physical_guard,1858,9290,9da55c95bf2249641401a183235a5280373901a59ddb61953ffc9ab9bb519511
+14,foam brick,68,True,False,True,False,False,385,1925,,,physical_guard,2180,10900,c59be79b59093e94dd09635d521bc866d62c53d445af78fc22f86c6429e59c60
+14,foam brick,69,True,True,True,True,True,384,1920,2080,10400,held_goal,2080,10400,ae44173ba4574a00f8ee8dd2d30a82b54ff094686f387ce3d7e6aa0f01ea79d7

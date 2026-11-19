@@ -1,0 +1,291 @@
+{
+  "scope": "Fresh-seed validation after controller freeze: 15 supplied objects x 10 previously untested random seeds; separate from development.",
+  "cases": 150,
+  "seeds": [
+    1213611890,
+    3933917892,
+    1346016511,
+    822771212,
+    3706409859,
+    2305335023,
+    3861613313,
+    3770488589,
+    4249069271,
+    3876937432
+  ],
+  "metrics": {
+    "call_strict_pick": 87,
+    "call_held_delivery": 55,
+    "tick_strict_pick": 85,
+    "both_tick_delivery": 53,
+    "both_timed_stages": 53
+  },
+  "rates_percent": {
+    "call_strict_pick": 58.0,
+    "call_held_delivery": 36.67,
+    "tick_strict_pick": 56.67,
+    "both_tick_delivery": 35.33,
+    "both_timed_stages": 35.33
+  },
+  "postpick_tick_deliveries": 55,
+  "conditional_delivery_percent": 63.2183908045977,
+  "objects": [
+    {
+      "object_id": 0,
+      "object_name": "master chef can",
+      "audited": 10,
+      "call_strict_pick": 0,
+      "call_held_delivery": 0,
+      "tick_strict_pick": 0,
+      "both_tick_delivery": 0,
+      "both_timed_stages": 0
+    },
+    {
+      "object_id": 1,
+      "object_name": "sugar box",
+      "audited": 10,
+      "call_strict_pick": 4,
+      "call_held_delivery": 0,
+      "tick_strict_pick": 4,
+      "both_tick_delivery": 0,
+      "both_timed_stages": 0
+    },
+    {
+      "object_id": 2,
+      "object_name": "tomato soup can",
+      "audited": 10,
+      "call_strict_pick": 9,
+      "call_held_delivery": 9,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 9,
+      "both_timed_stages": 9
+    },
+    {
+      "object_id": 3,
+      "object_name": "mustard bottle",
+      "audited": 10,
+      "call_strict_pick": 2,
+      "call_held_delivery": 2,
+      "tick_strict_pick": 0,
+      "both_tick_delivery": 0,
+      "both_timed_stages": 0
+    },
+    {
+      "object_id": 4,
+      "object_name": "potted meat can",
+      "audited": 10,
+      "call_strict_pick": 10,
+      "call_held_delivery": 6,
+      "tick_strict_pick": 10,
+      "both_tick_delivery": 6,
+      "both_timed_stages": 6
+    },
+    {
+      "object_id": 5,
+      "object_name": "banana",
+      "audited": 10,
+      "call_strict_pick": 10,
+      "call_held_delivery": 8,
+      "tick_strict_pick": 10,
+      "both_tick_delivery": 8,
+      "both_timed_stages": 8
+    },
+    {
+      "object_id": 6,
+      "object_name": "strawberry",
+      "audited": 10,
+      "call_strict_pick": 9,
+      "call_held_delivery": 5,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 5,
+      "both_timed_stages": 5
+    },
+    {
+      "object_id": 7,
+      "object_name": "apple",
+      "audited": 10,
+      "call_strict_pick": 9,
+      "call_held_delivery": 1,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 1,
+      "both_timed_stages": 1
+    },
+    {
+      "object_id": 8,
+      "object_name": "bleach cleanser",
+      "audited": 10,
+      "call_strict_pick": 0,
+      "call_held_delivery": 0,
+      "tick_strict_pick": 0,
+      "both_tick_delivery": 0,
+      "both_timed_stages": 0
+    },
+    {
+      "object_id": 9,
+      "object_name": "bowl",
+      "audited": 10,
+      "call_strict_pick": 6,
+      "call_held_delivery": 0,
+      "tick_strict_pick": 6,
+      "both_tick_delivery": 0,
+      "both_timed_stages": 0
+    },
+    {
+      "object_id": 10,
+      "object_name": "mug",
+      "audited": 10,
+      "call_strict_pick": 9,
+      "call_held_delivery": 8,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 8,
+      "both_timed_stages": 8
+    },
+    {
+      "object_id": 11,
+      "object_name": "plate",
+      "audited": 10,
+      "call_strict_pick": 0,
+      "call_held_delivery": 0,
+      "tick_strict_pick": 0,
+      "both_tick_delivery": 0,
+      "both_timed_stages": 0
+    },
+    {
+      "object_id": 12,
+      "object_name": "large marker",
+      "audited": 10,
+      "call_strict_pick": 10,
+      "call_held_delivery": 9,
+      "tick_strict_pick": 10,
+      "both_tick_delivery": 9,
+      "both_timed_stages": 9
+    },
+    {
+      "object_id": 13,
+      "object_name": "hammer",
+      "audited": 10,
+      "call_strict_pick": 0,
+      "call_held_delivery": 0,
+      "tick_strict_pick": 0,
+      "both_tick_delivery": 0,
+      "both_timed_stages": 0
+    },
+    {
+      "object_id": 14,
+      "object_name": "foam brick",
+      "audited": 10,
+      "call_strict_pick": 9,
+      "call_held_delivery": 7,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 7,
+      "both_timed_stages": 7
+    }
+  ],
+  "by_seed": [
+    {
+      "seed": 1213611890,
+      "call_strict_pick": 8,
+      "call_held_delivery": 6,
+      "tick_strict_pick": 8,
+      "both_tick_delivery": 6,
+      "both_timed_stages": 6
+    },
+    {
+      "seed": 3933917892,
+      "call_strict_pick": 7,
+      "call_held_delivery": 5,
+      "tick_strict_pick": 7,
+      "both_tick_delivery": 5,
+      "both_timed_stages": 5
+    },
+    {
+      "seed": 1346016511,
+      "call_strict_pick": 10,
+      "call_held_delivery": 7,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 6,
+      "both_timed_stages": 6
+    },
+    {
+      "seed": 822771212,
+      "call_strict_pick": 9,
+      "call_held_delivery": 6,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 6,
+      "both_timed_stages": 6
+    },
+    {
+      "seed": 3706409859,
+      "call_strict_pick": 9,
+      "call_held_delivery": 5,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 5,
+      "both_timed_stages": 5
+    },
+    {
+      "seed": 2305335023,
+      "call_strict_pick": 8,
+      "call_held_delivery": 5,
+      "tick_strict_pick": 8,
+      "both_tick_delivery": 5,
+      "both_timed_stages": 5
+    },
+    {
+      "seed": 3861613313,
+      "call_strict_pick": 9,
+      "call_held_delivery": 5,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 5,
+      "both_timed_stages": 5
+    },
+    {
+      "seed": 3770488589,
+      "call_strict_pick": 8,
+      "call_held_delivery": 4,
+      "tick_strict_pick": 8,
+      "both_tick_delivery": 4,
+      "both_timed_stages": 4
+    },
+    {
+      "seed": 4249069271,
+      "call_strict_pick": 9,
+      "call_held_delivery": 5,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 5,
+      "both_timed_stages": 5
+    },
+    {
+      "seed": 3876937432,
+      "call_strict_pick": 10,
+      "call_held_delivery": 7,
+      "tick_strict_pick": 9,
+      "both_tick_delivery": 6,
+      "both_timed_stages": 6
+    }
+  ],
+  "failure_details": {
+    "before_pickup": {
+      "no_safe_approach": 42,
+      "lift_contact_lost": 6,
+      "robot_scene": 11,
+      "measured_lift_unreachable": 1,
+      "lost_hold": 2,
+      "joint_limit": 1
+    },
+    "after_pickup": {
+      "lost_hold": 27,
+      "joint_limit": 1,
+      "robot_scene": 3,
+      "payload_scene": 1
+    }
+  },
+  "distinct_maze_goal_configurations": 10,
+  "configurations_shared_with_development": 1,
+  "scene_scope": "Same supplied object models and fixed internal maze generator; new seeds vary sampled surfaces and entry/exit-goal configurations, not independent unseen maze topologies.",
+  "complete_audits": 150,
+  "independent_recounts": 150,
+  "retries": 0,
+  "controller_tuning": false,
+  "runtime_files_unchanged": true,
+  "validation_finished_SGT": "2026-11-20T04:40:47.541460+08:00"
+}

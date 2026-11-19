@@ -1,0 +1,51 @@
+{
+  "status": "PASS_FRESH_INSTALL_RUN_AND_FULL_AUDIT",
+  "date": "2026-11-19",
+  "python": "3.10.0",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "isolated_venv": true,
+  "system_site_packages": false,
+  "dependency_file": "requirements-reproduction.txt",
+  "pip_check": "PASS",
+  "installed_packages": {
+    "contourpy": "1.3.2",
+    "kiwisolver": "1.5.1",
+    "numpy": "2.2.6",
+    "packaging": "26.3",
+    "matplotlib": "3.10.9",
+    "fonttools": "4.65.0",
+    "trimesh": "5.1.0",
+    "pip": "26.3",
+    "setuptools": "57.4.0",
+    "cycler": "0.12.1",
+    "tzdata": "2026.6",
+    "python-dateutil": "3.0.0",
+    "pillow": "12.3.0",
+    "pyparsing": "3.3.3",
+    "pybullet": "3.2.7",
+    "six": "1.17.0"
+  },
+  "published_controller_commit_tested": "931aebedecc6456c03b6c1c44b845f60d39b75fa",
+  "physical_trials": 1,
+  "retries": 0,
+  "run_command": "python -B run_simple.py --object 14 --seed 0 --output runs/foam-fresh-install",
+  "verification_command": "python -B verify_run.py runs/foam-fresh-install --output runs/foam-fresh-install-audit.json",
+  "termination": "held_goal",
+  "pickup": {
+    "call": 383,
+    "tick": 1915
+  },
+  "arrival": {
+    "call": 2145,
+    "tick": 10725,
+    "distance": 0.09773420229616782
+  },
+  "calls": 2145,
+  "ticks": 10725,
+  "raw_trace_sha256": "d239efb2767b2233bd5338dec942ca0360b9f8706b0e5faecffef41ac88fe9de",
+  "retained_trace_exact": true,
+  "full_audit": "PASS",
+  "all_five_outcome_flags": true,
+  "runtime_policy_changed": false,
+  "qualification": "Fresh dependency installation and one saved-case software reproduction, not a new reliability estimate; other platforms not tested."
+}
